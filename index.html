@@ -6,11 +6,17 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 
 <body>
     <div class="cuerpo"> 
+
+        <div class="espacio-vacio">
+
+        </div>
             <header>
                 <div class="logo-img">
                     <a href="index.html">
@@ -20,9 +26,9 @@
 
                 <nav class="header-nav">
                     <ul><a href="#home">Home</a></ul>
-                    <ul><a href="#nosotros">Nosotros</a></ul>
                     <ul><a href="#servicios">Servicios</a></ul>
-                    <ul><a href="#proposito">Mision</a></ul>
+                    <ul><a href="#clientes">Clientes</a></ul>
+                    <ul><a href="#nosotros">Nosotros</a></ul>
                     <ul><a href="#contacto">Contacto</a></ul>
                 </nav>
         </header>
@@ -33,7 +39,7 @@
           
         <section id="home" class="hero">
             <div class="hero-slider">
-                <div class="slide active" style="background-image: url('/images/hero1.png');  background-position: center 0%;"></div>
+                <div class="slide active" style="background-image: url('images/hero1.png');  background-position: center 0%;"></div>
             </div>
 
             <div class="hero-content">
@@ -48,108 +54,211 @@
 
 
            
-        <section id="servicios" class="servicios">
+        <section id="servicios" class="hero-servicios">
             <h1>Nuestros Servicios</h1>
-            <div class="grid-column-servicios">
-<!-- COLUMNA 1 SECCION DE SERVICIOS-->
-                <div class="column1">
-                    <div class="servicio1">
-                        <div class="descripcion1">
-                            <h2>PASEADORES</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>
-                        <img class="icono1" src="images/paseo-perros.png" alt="">
-                    </div>
-                    <div class="servicio2">
-                        <div class="descripcion2">
-                            <h2>TIENDA ONLINE</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>
-                        <img class="icono2" src="images/tienda-perros.png" alt="">
-                    </div>
-
-                    <div class="servicio3">
-                        <div class="descripcion3">
-                            <h2>TRASLADO DE MASCOTAS</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>
-                        <img class="icono3" src="images/traslado-perros.png" alt="">
-                    </div>
-
-                    <div class="servicio4">
-                        <div class="descripcion4">
-                            <h2>ENTRENADORES</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>
-                        <img class="icono4" src="images/entrenadores-perros.png" alt="">
-                    </div>
-                    
+            <div class="grid-servicios">
+                <div class="servicio">
+                    <img src="images/baño-perros.png" alt="">
+                    <h2>PELUQUERIA</h2>
+                    <p>Conectate desde la app con peluqueros profesionales cerca tuyo. Reservá turnos para que tu mascota reciba el mejor cuidado y salga limpia, feliz y con estilo.</p>
                 </div>
- <!-- COLUMNA 2 SECCION DE SERVICIOS-->               
-                <div class="column2">
-                    <div class="servicio10">
-                        <div class="descripcion10">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, earum. Illo maiores reprehenderit dolorum voluptate quo deleniti corporis beatae! Rem, aut molestiae ullam praesentium adipisci eum ut iure asperiores libero!</p>
-                            <h2>ASESORAMIENTO LEGAL</h2>
-                        </div>
-                        <img class="icono10" src="images/legal-perros.png" alt="">
-                    </div>
-
-                        <div class="mockup-celular">
-                            <img src="images/celular-servicios.png" alt="">
-                        </div>
-                    <div class="servicio5">
-                        <img class="icono5" src="images/seguros-mascotas.png" alt="">
-                        <div class="descripcion5">
-                            <h2>SEFUROS DE MASCOTAS</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, eos quo inventore est rem tempora sint possimus corporis odio quidem dolorum molestias doloremque, at repellendus ipsa ab impedit? Mollitia, aperiam?</p>
-                        </div>
-                        
-                    </div>
-                    
+                
+                <div class="servicio">
+                    <img src="images/cuidadores-perros.png" alt="">
+                    <h2>GUARDERIA</h2>
+                    <p>Encontrá guarderías confiables desde nuestra app y asegurale a tu mascota un espacio cómodo, con atención personalizada, juegos y mucho amor mientras vos estás ocupado.</p>
                 </div>
-<!-- COLUMNA 3 SECCION DE SERVICIOS-->
-                <div class="column3">
-                    <div class="servicio6">
-                        <img class="icono6" src="images/cuidadores-perros.png" alt="">
-                        <div class="descripcion6">
-                            <h2>PASEADORES</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>    
-                    </div>
-
-                    <div class="servicio7">
-                            <img class="icono7" src="images/veterinarios-perros.png" alt="">
-                        <div class="descripcion7">
-                            <h2>PASEADORES</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>
-                    </div>
-
-                    <div class="servicio8">
-                            <img class="icono8" src="images/historial-clinico-perros.png" alt="">
-                        <div class="descripcion8">
-                            <h2>PASEADORES</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>
-                    </div>
-
-                    <div class="servicio9">
-                            <img class="icono9" src="images/baño-perros.png" alt="">
-                        <div class="descripcion9">
-                            <h2>PASEADORES</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi magni quis libero doloribus quasi iste distinctio commodi sapiente, unde est a accusamus consequuntur voluptatum optio natus, blanditiis porro necessitatibus reiciendis!</p>
-                        </div>       
-                    </div>
+                <div class="servicio">
+                    <img src="images/historial-clinico-perros.png" alt="">
+                    <h2>HISTORIAL CLINICO</h2>
+                    <p>Organizá toda la información médica de tu mascota en un solo lugar. Desde la app podés cargar y consultar historial, vacunas y tratamientos, con recordatorios inteligentes.</p>
                 </div>
+                <div class="servicio">
+                    <img src="images/legal-perros.png" alt="">
+                    <h2>ASERSORIA LEGAL</h2>
+                    <p>¿Tenés dudas legales sobre la tenencia de tu mascota o accidente? Desde la app accedés a profesionales que te asesoran en temas jurídicos de forma clara, rápida y segura.</p>
+                </div>
+                <div class="servicio">
+                    <img src="images/paseo-de-perros.png" alt="">
+                    <h2>PASEO</h2>
+                    <p>¿No tenés tiempo para pasear a tu perro? Desde la app podés encontrar cuidadores y paseadores responsables que lo llevarán a disfrutar con seguridad y alegría.</p>
+                </div>
+                <div class="servicio">
+                    <img src="images/seguros-mascotas.png" alt="">
+                    <h2>SEGUROS DE SALUD</h2>
+                    <p>Protegé a tu mascota con un seguro de salud. Desde la app comparás opciones, contratás en minutos y asegurás atención médica sin complicaciones.</p>
+                </div>
+                <div class="servicio">
+                    <img src="images/tienda-perros.png" alt="">
+                    <h2>TIENDA ONLINE</h2>
+                    <p>Desde la app accedés a productos seleccionados para tu mascota: alimentos, juguetes, higiene y más. Comprá fácil, recibí en casa y aprovechá promociones exclusivas.</p>
+                </div>
+                <div class="servicio">
+                    <img src="images/traslado-perros.png" alt="">
+                    <h2>TRASLADO DE MASCOTAS</h2>
+                    <p>Solicitá desde la app el traslado de tu mascota con transportistas especializados. Ideal para turnos, emergencias o traslados largos con total seguridad.</p>
+                </div>
+                <div>
+
+                </div>
+                <div class="servicio">
+                    <img src="images/veterinarios-perros.png" alt="">
+                    <h2>VETERINARIO 24/7</h2>
+                    <p>Desde la app podés contactar veterinarios que atienden urgencias las 24 horas presencial o virtual. Consultas inmediatas para cuidar a tu mascota cuando más lo necesita.</p>
+                </div>
+                <div class="servicio">
+                    <img src="images/entrenadores-perros.png" alt="">
+                    <h2>ENTRENADOR</h2>
+                    <p>Encontrá entrenadores certificados desde nuestra app. Elegí sesiones a domicilio o virtuales para ayudar a tu mascota a aprender con amor y respeto.</p>
+                </div>
+                <div>
+
+                </div>      
             </div>
         </section>
-   
-
-    
-        <footer>
+<!-------- TESTIMONIOS -------->    
+        <section id="clientes" class="testimoni-container">
+        <h2>Clientes que probaron app BETA</h2>
+        <div class="testimonios-grid">
             
-        </footer>
+            <div class="testimonio">
+            <img src="images/hero5.jpg" alt="Foto de María G." class="testimonio-img" />
+            <p>"Encontrar paseador para mi perro es súper fácil y me ahorra muchísimo tiempo en la semana. La app hace todo más simple y rápido."</p>
+            <h4>— María G.</h4>
+            </div>
+            
+            <div class="testimonio">
+            <img src="images/hero4.jpg" alt="Foto de Juan P." class="testimonio-img" />
+            <p>"Tuve que viajar por trabajo y gracias a la guardería de la app pude dejar a mi mascota en buenas manos sin preocuparme. ¡Una solución perfecta!"</p>
+            <h4>— Juan P.</h4>
+            </div>
+            
+            <div class="testimonio">
+            <img src="images/hero2.jpg" alt="Foto de Laura M." class="testimonio-img" />
+            <p class="nombre-testi">"Contraté el seguro para mi mascota y recibí asesoramiento legal cuando tuve un accidente de tránsito con mi perro con una moto. La atención fue impecable."</p>
+            <h4>— Laura M.</h4>
+            </div>
+
+            <div class="testimonio">
+            <img src="images/hero3.jpg" alt="Foto de Diego S." class="testimonio-img" />
+            <p>“LMe encanta la tienda online, tienen de todo para mi perro: juguetes, collares GPS, ropa... Es súper práctico porque puedo comprar todo sin salir de casa.”</p>
+            <h4>— Diego S.</h4>
+            </div>
+            
+        </div>
+        </section>
+
+
+
+
+<!-------- HISTORIA -------->
+<section id="nosotros" class="nosotros-container">
+  <div class="nosotros-content">
+    <div class="nosotros-texto">
+      <h2>¿Cómo nació nuestra app?</h2>
+      <p>
+        Todo comenzó cuando notamos lo difícil que era encontrar servicios confiables para nuestras mascotas. Entre paseadores, guarderías, veterinarias y productos, había que usar múltiples plataformas. Así nació la idea: una app que centralizara todo lo que un dueño de mascota necesita en un solo lugar.
+      </p>
+      <p>
+        Después de meses de trabajo, pruebas y mejoras con usuarios reales, lanzamos la versión BETA con funcionalidades clave como seguros, tienda online, historial clínico, recordatorios y GPS. ¡Y esto recién empieza!
+      </p>
+    </div>
+    <div class="nosotros-imagen">
+      <img src="images/historia.jpg" alt="Imagen del equipo o mascotas felices">
+    </div>
+  </div>
+
+  <div class="nosotros-content">
+    <div class="nosotros-imagen">
+      <img src="images/fundador.jpg" alt="Foto del fundador">
+    </div>
+    <div class="nosotros-texto">
+      <h2>Sobre mí</h2>
+      <p>
+        ¡Hola! Soy Brandon Cazorla, fundador de esta app. Desde chico siempre tuve una conexión especial con los animales, y al convertirme en desarrollador, quise crear algo que realmente ayudara a quienes, como yo, aman a sus mascotas.
+      </p>
+      <p>
+        La idea nació al ver lo difícil que era coordinar veterinarias, seguros, paseadores, compras... todo estaba disperso. Por eso decidí crear una app que lo reuniera todo en un solo lugar, fácil de usar y pensada para la vida real.
+      </p>
+      <p>
+        Esta app es mucho más que tecnología: es una comunidad, un puente entre humanos y sus mascotas. Y esto recién empieza.
+      </p>
+    </div>
+  </div>
+
+   
+<!-------- FORMULARIO -------->
+        <section id="contacto" class="formulario">
+        <div class="form-container">
+
+            <!-- Caja izquierda: mensaje atractivo + redes -->
+            <div class="info-box">
+            <div class="quote-icon">
+                <img src="images/Diseño sin título (17).png" alt="Comillas verdes" />
+            </div>
+            <h3>Accedé antes que nadie</h3>
+            <p>¡Sumate a nuestra comunidad exclusiva y sé el primero en enterarte de nuestras promociones imperdibles, lanzamientos y beneficios únicos!<br> Completá tus datos y te lo contamos todo 🐶</p>
+            
+            <div class="redes-section">
+                <h4>SEGUINOS EN NUESTRAS REDES SOCIALES</h4>
+                <div class="redes">
+                <a href="https://www.youtube.com/" target="_blank" style="color: #28ac67;">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.tiktok.com/" target="_blank" style="color: #28ac67;">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" style="color: #28ac67;">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://tusitio.com/" target="_blank" style="color: #28ac67;">
+                    <i class="fas fa-globe"></i>
+                </a>
+                </div>
+            </div>
+            </div>
+
+            <!-- Caja derecha: formulario -->
+            <div class="form-box">
+            <h2>¡Quiero acceso anticipado!</h2>
+            <form>
+                <input type="text" placeholder="Nombre completo" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <button type="submit">OBTENER ACCESO ANTICIPADO</button>
+            </form>
+            </div>
+            
+        </div>
+        </section>
+
+
+
+
+
+<footer class="footer-container">
+  <div class="footer-content">
+    <div class="footer-top">
+      <div class="footer-left">
+        <i class="fas fa-envelope"></i>
+        <span>contacto@woofapp.com.ar</span>
+      </div>
+
+      <div class="footer-right">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fas fa-envelope"></i></a> <!-- Gmail -->
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fas fa-globe"></i></a> <!-- Web -->
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>® WOOF 2025 | Todos los derechos reservados</span>
+    </div>
+  </div>
+</footer>
+
+
     </div>
     <script src="scripts/script.js"></script>
 </body>
