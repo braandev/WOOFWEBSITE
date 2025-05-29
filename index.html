@@ -8,15 +8,14 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
     <div class="cuerpo"> 
-
-        <div class="espacio-vacio">
-
-        </div>
             <header>
                 <div class="logo-img">
                     <a href="index.html">
@@ -39,7 +38,11 @@
           
         <section id="home" class="hero">
             <div class="hero-slider">
-                <div class="slide active" style="background-image: url('images/hero1.png');  background-position: center 0%;"></div>
+                <div class="slide active" style="background-image: url('images/hero1.png');  background-position: center 0%;">
+                </div >
+                <div  class="backimg"  style="background-image: url('images/herocell.png'); background-position: center 0%;"  >
+
+                </div>
             </div>
 
             <div class="hero-content">
@@ -98,7 +101,7 @@
                     <h2>TRASLADO DE MASCOTAS</h2>
                     <p>Solicitá desde la app el traslado de tu mascota con transportistas especializados. Ideal para turnos, emergencias o traslados largos con total seguridad.</p>
                 </div>
-                <div>
+                <div class="none">
 
                 </div>
                 <div class="servicio">
@@ -111,14 +114,14 @@
                     <h2>ENTRENADOR</h2>
                     <p>Encontrá entrenadores certificados desde nuestra app. Elegí sesiones a domicilio o virtuales para ayudar a tu mascota a aprender con amor y respeto.</p>
                 </div>
-                <div>
+                <div class="none">
 
                 </div>      
             </div>
         </section>
 <!-------- TESTIMONIOS -------->    
         <section id="clientes" class="testimoni-container">
-        <h2>Clientes que probaron app BETA</h2>
+        <h2>Clientes que probaron la app BETA</h2>
         <div class="testimonios-grid">
             
             <div class="testimonio">
@@ -140,9 +143,9 @@
             </div>
 
             <div class="testimonio">
-            <img src="images/hero3.jpg" alt="Foto de Diego S." class="testimonio-img" />
-            <p>“LMe encanta la tienda online, tienen de todo para mi perro: juguetes, collares GPS, ropa... Es súper práctico porque puedo comprar todo sin salir de casa.”</p>
-            <h4>— Diego S.</h4>
+            <img src="images/sebafoto.webp" alt="Foto de Sebastian P." class="testimonio-img" />
+            <p>“Me encanta la tienda online, tienen de todo para mi perro: juguetes, collares GPS, ropa... Es súper práctico porque puedo comprar todo sin salir de casa.”</p>
+            <h4>— Sebastian P.</h4>
             </div>
             
         </div>
@@ -156,6 +159,7 @@
   <div class="nosotros-content">
     <div class="nosotros-texto">
       <h2>¿Cómo nació nuestra app?</h2>
+       <img class="imagen-historia1" src="images/pexels-photo-406014.jpeg" alt="Imagen del equipo o mascotas felices">
       <p>
         Todo comenzó cuando notamos lo difícil que era encontrar servicios confiables para nuestras mascotas. Entre paseadores, guarderías, veterinarias y productos, había que usar múltiples plataformas. Así nació la idea: una app que centralizara todo lo que un dueño de mascota necesita en un solo lugar.
       </p>
@@ -163,29 +167,29 @@
         Después de meses de trabajo, pruebas y mejoras con usuarios reales, lanzamos la versión BETA con funcionalidades clave como seguros, tienda online, historial clínico, recordatorios y GPS. ¡Y esto recién empieza!
       </p>
     </div>
-    <div class="nosotros-imagen">
-      <img src="images/historia.jpg" alt="Imagen del equipo o mascotas felices">
-    </div>
   </div>
 
   <div class="nosotros-content">
     <div class="nosotros-imagen">
-      <img src="images/fundador.jpg" alt="Foto del fundador">
+      <img src="images/brandonpic.jpg" alt="Foto del fundador">
     </div>
     <div class="nosotros-texto">
       <h2>Sobre mí</h2>
       <p>
-        ¡Hola! Soy Brandon Cazorla, fundador de esta app. Desde chico siempre tuve una conexión especial con los animales, y al convertirme en desarrollador, quise crear algo que realmente ayudara a quienes, como yo, aman a sus mascotas.
+         ¡Hola! Mi nombre es Brandon Cazorla, fundador de Woof!.tengo 23 años, Estudio Ingeniería Informática en la Universidad del Salvador (USAL) y la Licenciatura en Desarrollo de Software en Brigham Young University (BYU), en Estados Unidos. Desde niño, los animales siempre han sido mi gran pasión y compañeros inseparables. Esa conexión me motivó a combinar tecnología y amor por las mascotas para crear una solución que realmente marque la diferencia en sus vidas y en las de sus dueños. 
       </p>
       <p>
-        La idea nació al ver lo difícil que era coordinar veterinarias, seguros, paseadores, compras... todo estaba disperso. Por eso decidí crear una app que lo reuniera todo en un solo lugar, fácil de usar y pensada para la vida real.
+        Durante años observé cómo los dueños de mascotas luchan por coordinar veterinarias, seguros, paseadores y compras en múltiples plataformas dispersas, lo que genera estrés y pérdida de tiempo. En un mundo donde más del 60% de los hogares tienen mascotas, esta falta de integración es una gran oportunidad para innovar y facilitar el cuidado responsable y amoroso.
       </p>
       <p>
-        Esta app es mucho más que tecnología: es una comunidad, un puente entre humanos y sus mascotas. Y esto recién empieza.
+         Por eso diseñé esta app: un espacio único, simple e intuitivo, que reúne todos los servicios esenciales para el bienestar de nuestras mascotas en un solo lugar. Pero más allá de la tecnología, nuestra comunidad quiere construir un vínculo real entre humanos y sus compañeros peludos, facilitando su cuidado y fortaleciendo el amor que nos inspiran cada día.
+      </p>
+      <p> 
+        Esta es solo la primera etapa de un proyecto que aspira a transformar la manera en que cuidamos y amamos a nuestras mascotas. Te invito a sumarte a esta revolución y ser parte de una comunidad que cree que el bienestar de nuestras mascotas es prioridad. 
       </p>
     </div>
   </div>
-
+</section>
    
 <!-------- FORMULARIO -------->
         <section id="contacto" class="formulario">
@@ -208,7 +212,7 @@
                 <a href="https://www.tiktok.com/" target="_blank" style="color: #28ac67;">
                     <i class="fab fa-tiktok"></i>
                 </a>
-                <a href="https://www.instagram.com/" target="_blank" style="color: #28ac67;">
+                <a href="https://www.instagram.com/woofapp.ar/?utm_source=ig_web_button_share_sheet" target="_blank" style="color: #28ac67;">
                     <i class="fab fa-instagram"></i>
                 </a>
                 <a href="https://tusitio.com/" target="_blank" style="color: #28ac67;">
@@ -221,14 +225,14 @@
             <!-- Caja derecha: formulario -->
             <div class="form-box">
             <h2>¡Quiero acceso anticipado!</h2>
-            <form>
-                <input type="text" placeholder="Nombre completo" required>
-                <input type="email" placeholder="Correo electrónico" required>
-                <button type="submit">OBTENER ACCESO ANTICIPADO</button>
-            </form>
+<form action="enviar.php" method="POST">
+  <input type="text" name="nombre" placeholder="Nombre completo" required>
+  <input type="email" name="correo" placeholder="Correo electrónico" required>
+  <button type="submit">OBTENER ACCESO ANTICIPADO</button>
+</form>
             </div>
             
-        </div>
+          </div>
         </section>
 
 
